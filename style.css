@@ -1,0 +1,42 @@
+.container {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160vh;
+    background: rgb(60,53,176);
+background: linear-gradient(90deg, rgba(60,53,176,1) 0%, rgba(26,216,220,1) 50%, rgba(7,88,105,1) 100%);
+}
+
+#input-text {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    height: 25px;
+    font-size: 17px;
+}
+
+#submit-button{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #213df3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+    
+}
+
+#submit-button:hover{
+    background-color: rgb(46, 46, 125);
+}
+
+form {
+    width: 100%;
+}
